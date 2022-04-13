@@ -1,0 +1,105 @@
+@media (max-width: 767.98px) {
+    * {
+        color: #181A18;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .ImageMobileHeader {
+        width: 253px;
+        margin-left: 67px;
+        margin-top: 74px;
+    }
+    .SvgMobile {
+        margin-bottom: -421px;
+        width: 427px;
+        margin-left: -52px;
+    }
+    .HeadingMobile {
+        font-family: "Carter One", cursive;
+        font-size: 30px;
+        text-align: center;
+        margin: 48px 50px -12px 50px;
+    }
+    .ParagrafMobile {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        margin: 25px 20px 74px 20px;
+    }
+    .FooterBtnMobile {
+        position: absolute;
+        bottom: 0;
+        background-color: #1b5e5e;
+        width: 100%;
+        height: 50px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .FooterBtnMobile p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        color: #fafafa;
+        margin-top: 15px;
+    }
+    .AtasMobile {
+        background-color: #e9ecff;
+        height: 354px;
+    }
+    .BawahMobile {
+        position: absolute;
+        width: 100%;
+        padding: 35px;
+        margin-top: -47px;
+        border-radius: 30px 40px 0px 0px;
+        background-color: #fff;
+    }
+    .BawahMobile h5 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        text-indent: 0.7em;
+        width: 176px;
+        margin: 0 auto;
+        letter-spacing: 2px;
+    }
+    .BawahMobile p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        margin-top: 24px;
+    }
+    .btn-back {
+        margin-top: -269px;
+        margin-left: 10px;
+        margin-right: -50px;
+    }
+    .NextBtn {
+        background-color: aliceblue;
+        padding: 20px;
+        height: 49px;
+        width: 130px;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        border-radius: 20px 0px 0px 0px;
+    }
+    .NextBtnWa {
+        left: 0;
+        border-radius: 0px 20px 0px 0px;
+        width: 80px;
+    }
+    .Wanih {
+        font-size: 22px;
+    }
+    .NextBtn p {
+        margin-top: -7px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+}
