@@ -1,14 +1,22 @@
 $(document).ready(function () {
-    $(".FooterBtnMobile").click(function () {
-        if ($('.home').css('opacity') == 0) {
-            $('#screen1').addClass('animate__animated animate__backOutUp animate__slow');
-            $('#screen2').addClass('animate__animated animate__backOutUp animate__slow');
-            setTimeout(function () {
-                $('#screen1').addClass('d-none');
-                $('#screen2').addClass('d-none');
-                $(".home").removeClass("d-none").addClass('animate__animated animate__backInUp animate__slow');
-            }, 1000);
-        }
-        else $('.home').css('opacity', 0);
+    $("#dua").click(function () {
+        $('#screen1').addClass('d-none');
+        $('#screen2').addClass('d-none');
+        $(".home").removeClass("d-none").addClass("animate__animated animate__slideInDown");
     });
+    $("#satu").click(function () {
+        $('#screen1').removeClass('d-none').addClass("animate__animated animate__slideInUp");
+        $('#screen2').removeClass('d-none').addClass("animate__animated animate__slideInUp");
+        $(".home").addClass("d-none");
+    });
+
+    const navItems = document.getElementsByClassName('hp-item');
+    for (let i = 0; i < navItems.length; i++) {
+        navItems[i].addEventListener('click', () => {
+            for (let j = 0; j < navItems.length; j++)
+                navItems[j].classList.remove('active');
+
+            navItems[i].classList.add('active');
+        });
+    }
 });

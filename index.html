@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- end css -->
@@ -272,11 +273,6 @@
 
     <div class="mobile">
         <div class="header-mobile" id="screen1">
-            <svg class="SvgMobile" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <path fill="#C1CBFF"
-                    d="M45,-34.2C60.4,-16.6,76.4,2.3,73.5,17.4C70.5,32.5,48.5,43.9,29,49C9.4,54.1,-7.8,53,-24.1,46.5C-40.4,40,-55.8,28.1,-60.3,12.6C-64.8,-3,-58.3,-22.2,-46.4,-39C-34.6,-55.9,-17.3,-70.4,-1.2,-69.4C14.8,-68.4,29.6,-51.9,45,-34.2Z"
-                    transform="translate(100 100)" />
-            </svg>
             <img src="assets/img/mobile/resume.svg" alt=""
                 class="ImageMobileHeader animate__animated animate__backInDown">
             <p class="HeadingMobile">Buat CV Gratis</p>
@@ -293,23 +289,45 @@
                 <button class="btn btn-light shadow-sm btn-back rounded-15"><i
                         class="fa fa-arrow-left text-secondary"></i></button>
                 <img src="assets/img/mobile/resume.svg" alt=""
-                    class="ImageMobileHeader animate__animated animate__backInDown">
+                    class="ImageMobileHeader">
             </div>
             <div class="BawahMobile">
                 <h5>Resume Generator</h5>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat cupiditate modi, temporibus aliquam
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat cupiditate modi,
+                    temporibus aliquam
                     pariatur quidem debitis labore dolor perspiciatis blanditiis, commodi, rerum optio. Possimus
                     provident molestias, aliquam nulla vel dolore.</p>
-                <div class="d-flex justify-content-between">
-                    <div class="NextBtn NextBtnWa">
-                        <p><i class="fab fa-whatsapp Wanih text-success"></i></p>
-                    </div>
-                    <div class="NextBtn">
-                        <p class="text-primary">Next</p>
-                    </div>
+
                 </div>
             </div>
-        </div>
+            <nav class="navbar navbar-dark  navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom bg-nih">
+                <div class="hp">
+                    <div class="hp-item active" id="satu">
+                        <i class="material-icons home-icon">
+                            home
+                        </i>
+                        <span class="hp-text">Home</span>
+                    </div>
+                    <div class="hp-item" id="dua">
+                        <i class="material-icons favorite-icon">
+                            favorite
+                        </i>
+                        <span class="hp-text">Likes</span>
+                    </div>
+                    <div class="hp-item">
+                        <i class="material-icons search-icon">
+                            search
+                        </i>
+                        <span class="hp-text">Search</span>
+                    </div>
+                    <div class="hp-item">
+                        <i class="material-icons person-icon">
+                            person
+                        </i>
+                        <span class="hp-text">Profile</span>
+                    </div>
+                </div>
+            </nav>
     </div>
 
     <!--Jquery and JS -->
