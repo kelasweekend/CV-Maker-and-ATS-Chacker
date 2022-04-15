@@ -2,11 +2,17 @@
     * {
         color: #181A18;
     }
+    .home {
+        background-color: #e9ecff;
+        height: 700px;
+    }
     .desktop {
         display: none;
     }
     .mobile {
         display: block;
+        background-color: #e9ecff;
+        height: 700px;
     }
     .ImageMobileHeader {
         width: 253px;
@@ -46,7 +52,6 @@
         margin-top: 15px;
     }
     .AtasMobile {
-        background-color: #e9ecff;
         height: 354px;
     }
     .BawahMobile {
