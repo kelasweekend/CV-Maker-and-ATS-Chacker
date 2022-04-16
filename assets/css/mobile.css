@@ -30,7 +30,9 @@
     display: block;
     background-color: #FBFAF5;
     min-height: 100vh;
-    overflow: hidden;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
   }
   .ImageMobileHeader {
     width: 100%;
