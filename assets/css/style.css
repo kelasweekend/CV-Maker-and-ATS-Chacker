@@ -20,6 +20,10 @@ a {
   font-weight: 600;
   color: #000;
 }
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
 @font-face {
   font-family: rockin-font;
   src: url("../font/FirstFun.otf");

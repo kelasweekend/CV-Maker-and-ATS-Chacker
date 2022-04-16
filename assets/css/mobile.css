@@ -25,14 +25,28 @@
     box-shadow: 0 1px 1px rgb(0 0 0 / 11%), 0 2px 2px rgb(0 0 0 / 11%),
       0 4px 4px rgb(0 0 0 / 11%), 0 6px 8px rgb(0 0 0 / 11%),
       0 8px 16px rgb(0 0 0 / 11%);
+    animation: ripple 1000ms infinite;
+  }
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 255, 0, 0), 0 0 0 0px #3b444b, 0 0 0 0px rgba(0, 255, 0, 0),
+        0 0 0 0px #3b444b, 0 0 0 0px rgba(0, 255, 0, 0), 0 0 0 0px #3b444b, 0 0 0 0px rgba(0, 255, 0, 0),
+        0 0 0 0px #3b444b;
+    }
+    100% {
+      box-shadow: 0 0 0 15px rgba(0, 255, 0, 0), 0 0 0 17px rgba(255, 255, 255, 0),
+        0 0 0 40px rgba(0, 255, 0, 0), 0 0 0 42px rgba(255, 255, 255, 0),
+        0 0 0 70px rgba(0, 255, 0, 0), 0 0 0 72px rgba(255, 255, 255, 0),
+        0 0 0 105px rgba(0, 255, 0, 0), 0 0 0 107px rgba(255, 255, 255, 0);
+    }
   }
   .mobile {
     display: block;
-    background-color: #FBFAF5;
+    background-color: #fbfaf5;
     min-height: 100vh;
-    margin: 0; 
-    height: 100%; 
-    overflow: hidden
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
   }
   .ImageMobileHeader {
     width: 100%;
@@ -81,8 +95,11 @@
     width: 100%;
     padding: 35px;
     border-radius: 30px 40px 0px 0px;
-    background-color: #FBFAF5;
+    background-color: #fbfaf5;
     bottom: 0;
+  }
+  .BawahMobile button {
+      height: 50px;
   }
   .BawahMobile h5 {
     font-family: "Poppins", sans-serif;
@@ -99,6 +116,6 @@
     margin-top: 24px;
   }
   .btn-back {
-    margin: 10px;
+    margin: 20px;
   }
 }
