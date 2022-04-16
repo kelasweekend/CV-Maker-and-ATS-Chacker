@@ -1,164 +1,102 @@
 @media (max-width: 767.98px) {
-    * {
-        color: #181A18;
-    }
-    .home {
-        background-color: #e9ecff;
-        height: 700px;
-    }
-    .desktop {
-        display: none;
-    }
-    .mobile {
-        display: block;
-        background-color: #e9ecff;
-        height: 700px;
-    }
-    .ImageMobileHeader {
-        width: 253px;
-        margin-left: 67px;
-        margin-top: 74px;
-    }
-    .SvgMobile {
-        margin-bottom: -421px;
-        width: 427px;
-        margin-left: -52px;
-    }
-    .HeadingMobile {
-        font-family: "Carter One", cursive;
-        font-size: 30px;
-        text-align: center;
-        margin: 48px 50px -12px 50px;
-    }
-    .ParagrafMobile {
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        text-align: center;
-        margin: 25px 20px 74px 20px;
-    }
-    .FooterBtnMobile {
-        position: absolute;
-        bottom: 0;
-        background-color: #1b5e5e;
-        width: 100%;
-        height: 50px;
-        border-radius: 20px 20px 0px 0px;
-    }
-    .FooterBtnMobile p {
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        color: #fafafa;
-        margin-top: 15px;
-    }
-    .AtasMobile {
-        height: 354px;
-    }
-    .BawahMobile {
-        position: absolute;
-        width: 100%;
-        padding: 35px;
-        margin-top: -47px;
-        border-radius: 30px 40px 0px 0px;
-        background-color: #fff;
-    }
-    .BawahMobile h5 {
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-size: 30px;
-        text-indent: 0.7em;
-        width: 176px;
-        margin: 0 auto;
-        letter-spacing: 2px;
-    }
-    .BawahMobile p {
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        margin-top: 24px;
-    }
-    .btn-back {
-        margin-top: -269px;
-        margin-left: 10px;
-        margin-right: -50px;
-    }
-    .hp {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .bg-nih {
-        background-color: #ebdef4;
-    }
-    
-    .hp-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-grow: 1;
-        padding: 10px 15px;
-        cursor: pointer;
-        transition: all 0.2s ease-out;
-    }
-    
-    .hp-text {
-        font-size: 20px;
-        margin: auto;
-        text-align: center;
-        font-weight: 500;
-        display: none;
-        transition: all 0.3s ease;
-    }
-    
-    .material-icons {
-        display: inline;
-        font-size: 32px;
-        transition: color .3s;
-    }
-    
-    /* */
-    
-    .hp-item.active {
-        flex-grow: 3;
-        border-radius: 30px;
-        background: #eee;
-        justify-content: flex-start;
-    }
-    
-    .hp-item.active > .hp-text {
-        display: inline-block;
-    }
-    
-    .hp-item.active > .material-icons.home-icon {
-        color: #5a35b5;
-    }
-    
-    .material-icons.home-icon ~ .hp-text {
-        color: #5a35b5;
-    }
-    
-    .hp-item.active > .material-icons.favorite-icon {
-        color: #c9329a;
-    }
-    
-    .material-icons.favorite-icon ~ .hp-text {
-        color: #c9329a;
-    }
-    
-    .hp-item.active > .material-icons.search-icon {
-        color: #e5a023;
-    }
-    
-    .material-icons.search-icon ~ .hp-text {
-        color: #e5a023;
-    }
-    
-    .hp-item.active > .material-icons.person-icon {
-        color: #0091a9;
-    }
-    
-    .material-icons.person-icon ~ .hp-text {
-        color: #0091a9;
-    }
+  * {
+    color: #181a18;
+  }
+  .home {
+    background-color: #e9ecff;
+    min-height: 100vh;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .start {
+    font-size: 30px;
+    bottom: 50px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: none;
+    border-radius: 50px;
+    background: #fbfaf5;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 11%), 0 2px 2px rgb(0 0 0 / 11%),
+      0 4px 4px rgb(0 0 0 / 11%), 0 6px 8px rgb(0 0 0 / 11%),
+      0 8px 16px rgb(0 0 0 / 11%);
+  }
+  .mobile {
+    display: block;
+    background-color: #FBFAF5;
+    min-height: 100vh;
+  }
+  .ImageMobileHeader {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+  .ImageMobile {
+    width: 300px;
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 35px;
+  }
+  .HeadingMobile {
+    font-family: "Carter One", cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+  .ParagrafMobile {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 20px 5px 20px;
+  }
+  .FooterBtnMobile {
+    position: absolute;
+    bottom: 0;
+    background-color: #1b5e5e;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .FooterBtnMobile p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #fafafa;
+    margin-top: 15px;
+  }
+  .AtasMobile {
+    height: 354px;
+  }
+  .BawahMobile {
+    position: absolute;
+    width: 100%;
+    padding: 35px;
+    border-radius: 30px 40px 0px 0px;
+    background-color: #FBFAF5;
+    min-height: 60vh;
+    bottom: 0;
+  }
+  .BawahMobile h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-indent: 0.7em;
+    width: 176px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+  }
+  .BawahMobile p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-top: 24px;
+  }
+  .btn-back {
+    margin: 10px;
+  }
 }
