@@ -48,6 +48,9 @@
     height: 100%;
     overflow: hidden;
   }
+  .header-mobile {
+      min-height: 100vh;
+  }
   .ImageMobileHeader {
     width: 100%;
     margin-left: 0;
@@ -116,6 +119,6 @@
     margin-top: 24px;
   }
   .btn-back {
-    margin: 20px;
+    margin: 20px 0px 0px 20px;
   }
 }
